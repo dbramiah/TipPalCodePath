@@ -14,6 +14,7 @@
 		03C8FD271D51958900303E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C8FD251D51958900303E65 /* LaunchScreen.storyboard */; };
 		03C8FD321D51958900303E65 /* TipPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8FD311D51958900303E65 /* TipPalTests.swift */; };
 		03C8FD3D1D51958900303E65 /* TipPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8FD3C1D51958900303E65 /* TipPalUITests.swift */; };
+		03C8FD4B1D519F0F00303E65 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C8FD4A1D519F0F00303E65 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		03C8FD381D51958900303E65 /* TipPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C8FD3C1D51958900303E65 /* TipPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipPalUITests.swift; sourceTree = "<group>"; };
 		03C8FD3E1D51958900303E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03C8FD4A1D519F0F00303E65 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				03C8FD1C1D51958900303E65 /* AppDelegate.swift */,
 				03C8FD1E1D51958900303E65 /* ViewController.swift */,
 				03C8FD201D51958900303E65 /* Main.storyboard */,
+				03C8FD4A1D519F0F00303E65 /* SettingsViewController.swift */,
 				03C8FD231D51958900303E65 /* Assets.xcassets */,
 				03C8FD251D51958900303E65 /* LaunchScreen.storyboard */,
 				03C8FD281D51958900303E65 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				03C8FD1F1D51958900303E65 /* ViewController.swift in Sources */,
 				03C8FD1D1D51958900303E65 /* AppDelegate.swift in Sources */,
+				03C8FD4B1D519F0F00303E65 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
