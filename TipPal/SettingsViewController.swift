@@ -27,6 +27,8 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        // load defaults for tip percentage and color theme
         let defaults = NSUserDefaults.standardUserDefaults()
         let defaultTip = defaults.integerForKey("tip_default")
         self.defaultTipControl.selectedSegmentIndex = defaultTip
@@ -35,6 +37,7 @@ class SettingsViewController: UIViewController {
     }
 
     @IBAction func onClick(sender: AnyObject) {
+        // set default for tip percent
         let selectedTipDefault = defaultTipControl.selectedSegmentIndex
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setInteger(selectedTipDefault, forKey: "tip_default")
@@ -42,6 +45,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func colorClick(sender: AnyObject) {
+        // set default for color theme
         let selectedColorDefault = defaultColorControl.selectedSegmentIndex
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setInteger(selectedColorDefault, forKey: "color_default")
